@@ -41,14 +41,14 @@ function nuevoNivel() {
 		console.log(patron);
 		patronIndiceJugador = 0;
 		estado = 'esperando-jugador';
-	}, 500);
+	}, 5000);
 }
 
 function iluminarBoton(boton) {
 	boton.classList.add('active');
 	setTimeout(() => {
 		boton.classList.remove('active');
-	}, 1000);
+	}, 3000);
 }
 
 
